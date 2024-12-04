@@ -1,6 +1,7 @@
 @import "../vars";
 
 .title {
+  display: inline-block;
   color: $white;
   font-family: $title-font;
   font-size: 64px;
@@ -20,7 +21,7 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url(/images/title-leaf-l.svg);
+    background-image: url(../images/title-leaf-l.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -33,7 +34,7 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url(/images/title-leaf-r.svg);
+    background-image: url(../images/title-leaf-r.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }

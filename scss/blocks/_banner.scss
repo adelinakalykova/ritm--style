@@ -6,7 +6,7 @@
   &-container {
     padding-top: 136px;
     padding-bottom: 210px;
-    background-image: url("/images/banner-img.jpg");
+    background-image: url("../images/banner-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -40,11 +40,11 @@
     text-align: center;
 
     &::before {
-      background-image: url(/images/title-leaf-l-white.svg);
+      background-image: url(../images/title-leaf-l-white.svg);
     }
 
     &::after {
-      background-image: url(/images/title-leaf-r-white.svg);
+      background-image: url(../images/title-leaf-r-white.svg);
     }
   }
 }
